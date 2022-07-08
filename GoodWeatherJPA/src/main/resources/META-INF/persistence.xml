@@ -6,8 +6,20 @@
     <provider>org.hibernate.jpa.HibernatePersistenceProvider
     </provider>
     
+    <class>com.goodweatherjpa.entities.Point</class>
+    <class>com.goodweatherjpa.entities.Context</class>
+    <class>com.goodweatherjpa.entities.Geometry</class>
+    <class>com.goodweatherjpa.entities.Coordinates</class>
+    <class>com.goodweatherjpa.entities.ForecastOffice</class>
+    <class>com.goodweatherjpa.entities.Forecast</class>
+    <class>com.goodweatherjpa.entities.Period</class>
+    <class>com.goodweatherjpa.entities.GridPoint</class>
+    <class>com.goodweatherjpa.entities.ValuePair</class>
+    <class>com.goodweatherjpa.entities.ValuePairCollection</class>
+    <class>com.goodweatherjpa.entities.CustomError</class>
+    
 	<properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gwf_620?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=US/Mountain" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gwf_628?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=US/Mountain" />
       <property name="javax.persistence.jdbc.user" value="gwfuser"/>
       <property name="javax.persistence.jdbc.password" value="gwfuser" />
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
